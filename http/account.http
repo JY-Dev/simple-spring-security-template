@@ -1,0 +1,9 @@
+### 회원가입
+POST {{url}}/v1/account/signup
+Content-Type: application/json
+
+{
+  "userId": "test",
+  "password": "test",
+  "name": "test"
+}
